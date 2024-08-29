@@ -57,3 +57,15 @@ Dataset Description: Amazon Product Data
 * unit_count: The number of units included in the product package or the total quantity of the product.
 
 This dataset can be used for a variety of analyses, such as examining product pricing trends, identifying best sellers, analyzing customer ratings and reviews, and more. It's a rich source of information that can help understand market trends, consumer behavior, and product performance on Amazon.
+
+
+This dataset contains detailed information about 64 Amazon products, captured in 22 columns. Each entry represents a unique product, including data on pricing, ratings, availability, and various product features.
+
+Dataset Characteristics:
+
+* The dataset includes both numeric and categorical data types.
+* Several columns have missing values, particularly product_original_price, product_star_rating, product_availability, unit_price, and 
+  unit_count.
+* The dataset provides insights into product pricing, availability, customer feedback, and more, making it useful for various analytical 
+  tasks, including price comparison, market analysis, and customer sentiment analysis.
+* This dataset can be used for data analysis, visualization, and machine learning projects related to e-commerce.
