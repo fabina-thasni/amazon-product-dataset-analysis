@@ -61,6 +61,16 @@ This dataset can be used for a variety of analyses, such as examining product pr
 
 This dataset contains detailed information about 64 Amazon products, captured in 22 columns. Each entry represents a unique product, including data on pricing, ratings, availability, and various product features.
 
+The dataset contains several columns with varying numbers of null values.
+
+* product_original_price: This column has 37 null values, suggesting that for 37 products, the original price was not available or not applicable.
+* product_star_rating: There are 10 null values, implying that 10 products do not have a star rating, possibly due to a lack of reviews.
+* sales_volume: This column has 3 null values, suggesting that sales volume data is missing for 3 products.
+* delivery: There is 1 null value, indicating that delivery information is missing for 1 product.
+* product_availability: This column has 46 null values, indicating that the availability status is missing for 46 products.
+* unit_price: There are 59 null values, meaning the unit price is missing for 59 products.
+* unit_count: This column also has 59 null values, suggesting that the unit count is missing for the same 59 products.
+
 Dataset Characteristics:
 
 * The dataset includes both numeric and categorical data types.
@@ -69,3 +79,20 @@ Dataset Characteristics:
 * The dataset provides insights into product pricing, availability, customer feedback, and more, making it useful for various analytical 
   tasks, including price comparison, market analysis, and customer sentiment analysis.
 * This dataset can be used for data analysis, visualization, and machine learning projects related to e-commerce.
+
+FILTERING QUESTIONS:
+
+* 1.get the details with product 's star rating 4.0 and above
+* 2.identify products that are best sellers
+* 3.select products labeled as amazon's choice
+* 4.identify the product details with currency is USD
+* 5.to get only the products that are listed as "Only 7 left in stock - order soon"?
+* 6.to get only the products that have a star rating of 4.5 or higher and are eligible for Amazon Prime?
+* 7.to get only the products that have a star rating of 3.0 or higher and are listed as "Only 7 left in stock - order soon"?
+* 8.Filter the data  to get  the products that have "5G" in their  product title?
+
+SORTING QUESTIONS:
+* sort in descending order based on the product_star_rating column?
+* Sort products alphabetically by their title.
+* Sort by star rating in descending order and then by price in ascending order
+  
